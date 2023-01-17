@@ -7,7 +7,7 @@ except IndexError:
     ip_address = None
 
 
-access_token = '' #put your token here
+access_token = '' #put your token here, ipinfo.io
 handler = ipinfo.getHandler(access_token)
 details = handler.getDetails(ip_address)
 
